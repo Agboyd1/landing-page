@@ -10,11 +10,11 @@
 
 .headertop {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding:8px;
-    
 
 }
+
 ul {
     list-style-type: none;
     display:flex;
@@ -23,11 +23,42 @@ ul {
     gap: 16px;
 }
 
-.container {
+
+.headerbottom{
     display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    padding: 50px;
+    align-content:center ;
+    position:relative;
+}
+
+
+
+button {
+    display:flex;
+    align-self: flex-start;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 350px;
+    
+    
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    align-self:flex-end;
     padding: 50px;
     align-items: center;
     Background: grey;
-    height:40px;
-    width:150px;
+    height:50px;
+    width:220px;
+    position:absolute;
+    margin-top: 40px;
+    
 }
