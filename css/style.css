@@ -25,7 +25,7 @@ ul {
 
 
 .headerbottom{
-    display: flex;
+    display:flex;
     justify-content:space-evenly;
     flex-direction: column;
     padding: 50px;
@@ -38,6 +38,13 @@ ul {
 button {
     display:flex;
     align-self: flex-start;
+    background-color:#3882F6;
+    color:white;
+    padding:8px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: bold;
 }
 
 .info {
@@ -45,6 +52,7 @@ button {
     flex-direction: column;
     justify-content:center;
     width: 350px;
+    
     
     
 }
@@ -61,4 +69,27 @@ button {
     position:absolute;
     margin-top: 40px;
     
+}
+
+.random {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+.c {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+img {
+    height:150px;
+    width:150px;
+    justify-content: space-between;
 }
